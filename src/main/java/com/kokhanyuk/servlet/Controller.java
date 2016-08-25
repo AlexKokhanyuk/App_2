@@ -70,13 +70,13 @@ public class Controller extends HttpServlet {
         out.println("</head><body>");
         out.println("<h1> We have Parameters: </h1>");
 
-        Map map = request.getParameterMap();
-        for (Object key : map.keySet()) {
-            String keyStr = (String) key;
-            String[] value = (String[]) map.get(keyStr);
-            //System.out.println("Key" + (String)key + "   :   " + Arrays.toString(value));
-            out.println("<h1> Key:_" + (String) key + "   :   " + Arrays.toString(value) + "+</h1>");
-        }
+//        Map map = request.getParameterMap();
+//        for (Object key : map.keySet()) {
+//            String keyStr = (String) key;
+//            String[] value = (String[]) map.get(keyStr);
+//            //System.out.println("Key" + (String)key + "   :   " + Arrays.toString(value));
+//            out.println("<h1> Key:_" + (String) key + "   :   " + Arrays.toString(value) + "+</h1>");
+//        }
         out.println("</body></html>");
 
 
