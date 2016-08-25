@@ -14,7 +14,7 @@
     <%--<button type="submit" name="submit">Open Cookies</button>--%>
     <%--</form>--%>
 
-    <form action="/controller"  method="post">
+    <form action="controller"  method="post">
         User Name:
         <input value="" size="20" name="username" type="text">
         <br>
